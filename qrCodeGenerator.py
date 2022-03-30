@@ -11,7 +11,7 @@ def qrGenerator():
     qr = qrcode.make(URL.get())
 
     #Name of image
-    imgName = URL.get() + ".png"
+    imgName = "qrcode.png"
 
     #Save qr code
     qr.save(imgName)
